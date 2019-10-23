@@ -1,25 +1,28 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
+import Page from './components/page';
 
+/*
+navbar top
+carousel
+  restuarant name
+*/
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar /> 
+      <Page />
+      <Footer />
+    </>
+    /*
+    state {0:home, 1:menu}
+    state == 0 ? jumbotron+carousel : menu, title, col, accordians, subtitle, dishes
+    */
+
+
   );
 }
 
