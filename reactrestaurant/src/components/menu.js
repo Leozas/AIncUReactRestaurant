@@ -8,9 +8,10 @@ function Menu(props){
     return(
 
 <>
-        <Accordian>
-            
-        </Accordian>
+{/*
+accordian+nested carousel, collapse to have seperate from jumbo carousel
+*/}
+        <Accordian></Accordian>
 </>
 
     );
