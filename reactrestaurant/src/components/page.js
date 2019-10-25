@@ -1,18 +1,13 @@
 import React from 'react';
 import Carousel from './carousel';
+import Menu from './menu';
 
-function Page() {
+function Page(props) {
     return (
 
         <>
             <Carousel />
-
-            <div className="row">
-                <p>hello</p>
-                <div className="col">
-                    <p>world</p>
-                </div>
-            </div>
+            <Menu />
         </>
     );
 }
