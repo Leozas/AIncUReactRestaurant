@@ -6,7 +6,7 @@ import React from 'react';
 
 function Footer(props) {
     return (
-        <footer className="bg-primary text-white justify-content-center">
+        <footer className="bg-primary text-white justify-content-center" id="footer">
             <div className="continaner d-flex">
                 <div className="row justify-content-center">
                     <div className="col mx-auto align-center justify-content-center">

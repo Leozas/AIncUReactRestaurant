@@ -5,6 +5,8 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Page from './components/page';
 import Accordian from './components/accordian';
+import './themestr.css';
+import NavTabs from './components/navtabs';
 /*
 navbar top
 carousel

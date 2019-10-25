@@ -13,22 +13,22 @@ function Carousel(props) {
                     <div className="carousel-item active">
                         <img src="https://privetmadrid.com/wp-content/uploads/2017/05/Restaurante-1110x577.jpg" className="d-block w-100" alt="..."></img>
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>testing1 home slide</p>
+                            <h5>Peytra's Paellas</h5>
+                            <p>Authentic Spanish Cuisine</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src="https://image1.masterfile.com/getImage/ODYyLTA3NjkwODY3ZW4uMDAwMDAwMDA=ADzowg/862-07690867en_Masterfile.jpg" className="d-block w-100" alt="..."></img>
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h5>Come by for Breakfast, Lunch, Dinner or Happy Hour!</h5>
+                            <p>Both inside and outside seating, and full bar.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src="https://cdn.theculturetrip.com/images/56-3721938-14384372412b27818d626544db8d068d04336a2cbd.jpg" className="d-block w-100" alt="..."></img>
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h5>Our World Renowned <emphasis>Desayuno</emphasis>!</h5>
+                            <p>A full-fledged breakfast for those ready to sieze the day, served until 11:00 a.m.</p>
                         </div>
                     </div>
                 </div>

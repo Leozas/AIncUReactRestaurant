@@ -3,17 +3,18 @@
 */
 import React from 'react';
 import Accordian from './accordian';
+import NavTabs from './navtabs';
+
 
 function Menu(props){
     return(
 
 <>
 {/*
-accordian+nested carousel, collapse to have seperate from jumbo carousel
+navtab+nested carousel, collapse to have seperate from jumbo carousel
 */}
-        <Accordian></Accordian>
+        <NavTabs />
 </>
-
     );
 }
 
