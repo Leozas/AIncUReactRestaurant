@@ -1,44 +1,44 @@
 import React from 'react';
 
-function Carousel() {
+function Carousel(props) {
     return (
-        <div class="bd-example">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <div className="bd-example">
+            <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+                <ol className="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://privetmadrid.com/wp-content/uploads/2017/05/Restaurante-1110x577.jpg" class="d-block w-100" alt="..."></img>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>testing1 home slide</p>
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src="https://privetmadrid.com/wp-content/uploads/2017/05/Restaurante-1110x577.jpg" className="d-block w-100" alt="..."></img>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Peytra's Paellas</h5>
+                            <p>Authentic Spanish Cuisine</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..."></img>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div className="carousel-item">
+                        <img src="https://image1.masterfile.com/getImage/ODYyLTA3NjkwODY3ZW4uMDAwMDAwMDA=ADzowg/862-07690867en_Masterfile.jpg" className="d-block w-100" alt="..."></img>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Come by for Breakfast, Lunch, Dinner or Happy Hour!</h5>
+                            <p>Both inside and outside seating, and full bar.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..."></img>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <div className="carousel-item">
+                        <img src="https://cdn.theculturetrip.com/images/56-3721938-14384372412b27818d626544db8d068d04336a2cbd.jpg" className="d-block w-100" alt="..."></img>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Our World Renowned <emphasis>Desayuno</emphasis>!</h5>
+                            <p>A full-fledged breakfast for those ready to sieze the day, served until 11:00 a.m.</p>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Next</span>
                 </a>
             </div>
         </div>
