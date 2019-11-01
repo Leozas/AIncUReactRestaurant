@@ -8,8 +8,8 @@ function Footer(props) {
     return (
         <footer className="bg-primary text-white justify-content-center" id="footer">
             <div className="continaner d-flex">
-                <div className="row justify-content-center">
-                    <div className="col mx-auto align-center justify-content-center">
+                <div className="row text-center justify-content-center">
+                    <div className="mx-auto text-center justify-content-center">
                         <p>Peytra's Paellas</p>
                         <p>5235 Side Street, Crazytown USA</p>
                         <p>Open Monday through Friday 10:00 a.m. to 7:00 p.m. Open Saturday 1:00 p.m. to 4:00 p.m.</p>

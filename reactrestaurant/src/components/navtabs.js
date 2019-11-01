@@ -1,5 +1,6 @@
 import React from 'react'
 import Badge from './badge';
+import ApiMenuCall from './apimenucall';
 
 function NavTabs() {
     return (
@@ -22,11 +23,11 @@ function NavTabs() {
                 </li>
             </ul>
             <div className="tab-content justify-content-center" id="pills-tabContent">
-                <div className="tab-pane fade show active" id="pills-specials" role="tabpanel" aria-labelledby="pills-specials-tab">Specials </div>
-                <div className="tab-pane fade" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab">Breakfast</div>
-                <div className="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">Lunch</div>
-                <div className="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab">Dinner</div>
-                <div className="tab-pane fade show" id="pills-bar" role="tabpanel" aria-labelledby="pills-bar-tab">Bar</div>
+                <div className="tab-pane fade show active" id="pills-specials" role="tabpanel" aria-labelledby="pills-specials-tab"> <ApiMenuCall /> </div>
+                <div className="tab-pane fade" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab"><ApiMenuCall /> </div>
+                <div className="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"><ApiMenuCall /> </div>
+                <div className="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"><ApiMenuCall /> </div>
+                <div className="tab-pane fade show" id="pills-bar" role="tabpanel" aria-labelledby="pills-bar-tab"><ApiMenuCall /> </div>
             </div>
         </>
     );

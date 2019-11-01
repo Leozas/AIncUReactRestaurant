@@ -2,7 +2,6 @@
 
 */
 import React from 'react';
-import Accordian from './accordian';
 import NavTabs from './navtabs';
 
 
